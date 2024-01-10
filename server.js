@@ -10,7 +10,7 @@ const PORT_N = process.env.PORT || 5000;
 app.use(express.json());
 
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://glittering-quokka-647c1c.netlify.app"],
+  origin: ["http://localhost:5173", "https://glittering-quokka-647c1c.netlify.app", "https://cool-conkies-c4573a.netlify.app"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
